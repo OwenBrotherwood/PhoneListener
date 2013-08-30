@@ -4,7 +4,11 @@ PhoneListener
 TODO
 
 http://developer.android.com/reference/android/telephony/PhoneStateListener.html
+
 public void onCallStateChanged (int state, String incomingNumber)
+
+https://github.com/mbillau/phonegap-plugins/tree/master/Android/CallLog
+
 /Owen
 
 Installation
