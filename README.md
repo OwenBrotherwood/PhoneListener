@@ -6,7 +6,9 @@ TODO
 http://developer.android.com/reference/android/telephony/PhoneStateListener.html
 http://developer.android.com/reference/android/telephony/PhoneStateListener.html#onCallStateChanged(int, java.lang.String)
 
+<pre>
 <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</pre>
 
 if(state == TelephonyManager.CALL_STATE_RINGING){
 Toast toast = Toast.makeText(getApplicationContext(), incomingNumber, Toast.LENGTH_LONG);
